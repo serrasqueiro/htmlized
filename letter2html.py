@@ -81,11 +81,13 @@ class TranslateTable:
               if first=="&":
                 isOk = html.endswith( ";" )
                 assert isOk
-      k = 0xa0
+      k = 0x7f
       while True:
         k += 1
         if k >= 256:
           break
+        if k==0xa0:
+          print("<hr>Now ASCII after 0xA0 (160d)<br>")
         if used[ k ]<=0:
           hint = hint_str("info", k)
           print("<p>unused k:", "0x{:02x} #{:03};".format(k, k), hint, "</p>")
