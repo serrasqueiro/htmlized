@@ -1,6 +1,5 @@
 * Introduction
-'another_4433185' gathers different ways of dumping latin-1 chars
-(such as accented letters) from UniCode 0..255 into straight 7bit/ HTML strings.
+[htmlized](https://github.com/serrasqueiro/htmlized) (formerly 'another_4433185') gathers different ways of dumping latin-1 chars (such as accented letters) from UniCode 0..255 into straight 7bit/ HTML strings.
 
 * Original author
 This was originally fetched from [cookedapple](https://gist.github.com/cookedapple)
