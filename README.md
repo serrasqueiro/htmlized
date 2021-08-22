@@ -8,8 +8,6 @@ It was a very basic function (see 'l2h').
 * Content
 ** Files:
    -	README.md - this markdown (help) file
-   -	l2h - convert unicode chars to html (Python), incomplete.
+   -	l2h - convert unicode chars to html (Python), incomplete; originally [here](https://gist.github.com/4433185.git)
    -	letter2html.py - generates HTML or Python script for handling latin-1.
 
-** Extras:
-   - ls_colors [here](https://gist.github.com/serrasqueiro/3cc4239e666baa4d8499cede47fc1f65): `git@gist.github.com:3cc4239e666baa4d8499cede47fc1f65.git`
